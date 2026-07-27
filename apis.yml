@@ -1,8 +1,18 @@
 aid: gardens
 name: Gardens
-description: Gardens is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Gardens (Gardens Interactive) is a distributed, remote-first video game studio
+  founded in 2021 by veterans of Journey, What Remains of Edith Finch, Sky:
+  Children of the Light, Blaseball, Dustforce, Guild Wars 2, and Firewatch. The
+  studio builds lush, living worlds that bring players together to cultivate
+  lasting friendships, and is developing an upcoming shared fantasy adventure — an
+  ever-evolving online multiplayer sandbox set in a shapeshifting, unpredictable
+  wilderness filled with mystery and magic, designed around meaningful moments
+  shared between strangers. Co-founded by Chris Bell, Lexie Dostal, and Stephen
+  Bell and based primarily out of Portland and Los Angeles, Gardens raised a
+  $31.3M Series A co-led by Lightspeed Venture Partners. As a game studio, Gardens
+  publishes no public developer API, SDK, or developer portal; this profile
+  captures its identity within the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/gardens/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,66 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: gaming
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://gardens.dev/favicon.ico
 tags:
 - Company
+- Gaming
+- Game Studio
+- Video Games
+- Interactive Entertainment
+- Multiplayer
+- Indie Games
+- Lightspeed Portfolio
 apis: []
+common:
+- type: DomainSecurity
+  url: security/gardens-domain-security.yml
+- type: Website
+  url: https://gardens.dev
+- type: Blog
+  url: https://gardens.dev/blog/
+- type: Careers
+  url: https://gardens.dev/careers
+- type: Press
+  url: https://gardens.dev/press
+- type: PrivacyPolicy
+  url: https://gardens.dev/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/gardens-games/
+- type: X
+  url: https://x.com/gardensdevs
+- type: Bluesky
+  url: https://bsky.app/profile/gardens.dev
+- type: YouTube
+  url: https://www.youtube.com/@GardensDevs
+- type: Instagram
+  url: https://www.instagram.com/gardensdevs/
+- type: TikTok
+  url: https://www.tiktok.com/@gardensdevs
+- type: Steam
+  url: https://store.steampowered.com/developer/GardensInteractive
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

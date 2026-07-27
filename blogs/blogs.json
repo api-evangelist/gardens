@@ -1,0 +1,14 @@
+{
+  "repo": "gardens",
+  "feeds": [
+    {
+      "source": "https://gardens.dev",
+      "feed_url": "https://gardens.dev",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
